@@ -1,0 +1,65 @@
+.container {
+    border-radius: 10px;
+    border: 2px solid #002232;
+    display: flex;
+    background-color: #bbbbbb;
+    margin: auto;
+    max-width: 60vw;
+}
+
+.container ul {
+    gap: 20px;
+    display: flex;
+  /* padding: 0; */
+  /* margin: 0; */
+}
+ul li {
+    font-family: sans-serif;
+    list-style: none;
+  /* font-size: 20px; */
+  /* font-weight: bold; */
+}
+
+ul li svg {
+    height: 15px;
+    margin-left: 3px;
+    width: 15px;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+.content{
+    /* display: table-caption; */
+    position: relative;
+    left: 500px;
+}
+.search{
+    position: relative;
+    left: 500px;
+    top: 5px;
+}
+.bth{
+    height: 30px;
+    width: 100px;
+    border: 2px solid papayawhip;
+    border-radius: 20px;
+    position: relative;
+    top: -20px;
+}
+h2{
+        /* text-align: center; */
+        position: relative;
+        left: 500px;
+}
+.radio{
+    position: relative;
+    left: 500px;
+}
+
+.section{
+    position: relative;
+    left: 500px;
+}
+
