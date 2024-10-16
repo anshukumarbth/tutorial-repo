@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="container">
+        <ul>
+            <li><span>RU</span> </li>
+            <li><span>FORUM</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path
+                        d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
+                </svg></li>
+            <li><span>DOWNLOAD</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path
+                        d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
+                </svg></li>
+            <li><span>UPLOAD</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path
+                        d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
+                </svg></li>
+            <li><span>LAST</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path
+                        d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
+                </svg></li>
+            <li><span>OTHERS</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path
+                        d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
+                </svg></li>
+            <li><span>TOPICS</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path
+                        d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
+                </svg></li>
+        </ul>
+    </div>
+    <main>
+        <caption>
+            <h1>Library Genesis</h1>
+            <div class="content">
+                <br>Current alias domains are
+                <a href="#">libgen.rs</a>, <a href="#">libgen.is</a>,<a href="#">libgen.st</a> . Update your bookmarks!
+                <br>
+                <a href="#">Get involved to help the project!</a>
+                <br>
+                <a href="#">A guide to effective catalog searching</a>
+                <br>Try
+                <a href="#">Libgen Desktop</a> application! Now with IPFS downloads!
+            </div>
+        </caption>
+        <div class="search">
+            <textarea  name="comment" rows="3" cols="40">Enter your comment here...</textarea>
+            <button class="bth">Search!</button>
+        </div>
+        <br>
+
+        <table>
+            <h2>Search in : </h2>
+                <div class="radio">
+                    <input type="radio" id="Non-fiction / Sci-tech" name="Search" value="Non-fiction / Sci-tech">
+                    <label for="Non-fiction / Sci-tech">Non-fiction / Sci-tech</label>
+
+                    <input type="radio" id=" Fiction" name="Search" value=" Fiction">
+                    <label for=" Fiction"><a href="#">Fiction</a></label>
+
+                    <input type="radio" id="Scientific articles" name="Search" value="Scientific articles">
+                    <label for="Scientific articles"><a href="#">Scientific articles</a></label>
+
+                    <input type="radio" id="Magazines" name="Search" value="Magazines">
+                    <label for="Magazines"><a href="#">Magazines</a></label>
+                </div>
+        </table>
+        <br>
+        <div class="section">
+            <div class="text">LibGen Search options:</div>
+            <label for="Download">Download type:</label>
+            <select>
+                <option value="Download"><b>Resumed dl with original filename</b></option>
+                <option value="Download"><b>Resumed dl with translit filename</b></option>
+                <option value="Download"><b>Resumed dl with md5 filename</b></option>
+                <option value="Download"><b>Open file in browser</b></option>
+            </select><br>
+
+            <label>View results:</label>
+            <input type="radio" id="simple" name="view" value="simple">
+            <label for="simple">Simpl</label>
+            <input type="radio" name="view" id="detailed" value="detailed">
+            <label for="detailed">Detailed</label>
+            <br>
+            <label>Results per page : </label>
+            <select name="results">
+                <option value="results">25</option>
+                <option value="results">50</option>
+                <option value="results">75</option>
+                <option value="results">100</option>
+            </select>
+        <br>
+
+        <label>Search with mask (word*):</label>
+        <input type="radio" id="no" name="swm" value="no">
+        <label for="no">No</label>
+        <input type="radio" id="yes" name="swm" value="yes">
+        <label for="yes">Yes</label>
+        <br>
+        <label>Search in fields</label>
+        <input type="radio" id="The column set default" name="search in fields" value="The column set default">
+        <label for="The column set default"><a href="#">The column set default</a></label>
+        <input type="radio" id="Title" name="search in fields" value="Title">
+        <label for="Title">Title</label>
+        <input type="radio" id=" Author(s)" name="search in fields" value=" Author(s)">
+        <label for=" Author(s)">Author(s)</label>
+        <input type="radio" id="Series" name="search in fields" value="Series">
+        <label for="Series">Series</label>
+        <br>
+        <input type="radio" id="Publisher" name="search in fields" value="Publisher">
+        <label for="Publisher">Publisher</label>
+        <input type="radio" id="Year" name="search in fields" value="Year">
+        <label for="Year">Year</label>
+        <input type="radio" id="ISBN" name="search in fields" value="ISBN">
+        <label for="ISBN">ISBN</label>
+        <input type="radio" id="Language" name="search in fields" value="Language">
+        <label for="Language">Language</label>
+        <input type="radio" id="MD5" name="search in fields" value="MD5">
+        <label for="MD5">MD5</label>
+        <input type="radio" id="Tags" name="search in fields" value="Tags">
+        <label for="Tags">Tags</label>
+        
+        </div>
+    </main>
+
+</body>
+
+</html>
