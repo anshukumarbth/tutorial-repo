@@ -10,14 +10,12 @@
 .container ul {
     gap: 20px;
     display: flex;
-  /* padding: 0; */
-  /* margin: 0; */
+    flex-wrap: wrap;
 }
+
 ul li {
     font-family: sans-serif;
     list-style: none;
-  /* font-size: 20px; */
-  /* font-weight: bold; */
 }
 
 ul li svg {
@@ -26,40 +24,54 @@ ul li svg {
     width: 15px;
 }
 
-h1{
+h1 {
     color: red;
     text-align: center;
 }
-.content{
-    /* display: table-caption; */
-    position: relative;
-    left: 500px;
+
+.content, 
+.search, 
+.radio, 
+.section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
 }
-.search{
-    position: relative;
-    left: 500px;
-    top: 5px;
+
+.search {
+    margin-top: 5px;
 }
-.bth{
+
+.bth {
     height: 30px;
     width: 100px;
     border: 2px solid papayawhip;
     border-radius: 20px;
-    position: relative;
-    top: -20px;
-}
-h2{
-        /* text-align: center; */
-        position: relative;
-        left: 500px;
-}
-.radio{
-    position: relative;
-    left: 500px;
+    margin-top: 10px;
 }
 
-.section{
-    position: relative;
-    left: 500px;
+h2 {
+    text-align: left;
+    margin-left: 10px;
 }
 
+.radio, 
+.section {
+    margin-top: 20px;
+}
+
+.section select, 
+.section input[type="radio"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section label {
+    display: block;
+    margin-top: 5px;
+}
+
+.section input[type="radio"], 
+.section select {
+    margin-right: 10px;
+}
